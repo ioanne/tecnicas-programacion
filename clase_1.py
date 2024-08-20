@@ -75,3 +75,32 @@ print("Fin del programa")
 
 
 
+# Operadores logicos
+# AND
+# OR
+# NOT
+"""
+# OR
+0 + 0 = 0   # False o False = False
+0 + 1 = 1   # False o True = True
+1 + 0 = 1   # True o False = True
+1 + 1 = 1   # True o True = True
+
+# AND
+0 * 0 = 0   # False y False = False
+0 * 1 = 0   # False y True = False
+1 * 0 = 0   # True y False = False
+1 * 1 = 1   # True y True = True
+"""
+
+10 + 10 * 10
+(10 + 10) * 10
+
+# 1 + 1 * 0 = 1
+True or True and False
+
+
+#       +         *       +
+if True or False and True or False:
+    print("Hola mundo")
+
