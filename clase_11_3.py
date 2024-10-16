@@ -19,7 +19,7 @@ class Triangulo(Figura):
         self.lado = lado
 
     def calcular_area(self):
-        return (self.base * self.altura) / 2
+        return self.base * self.altura / 2
     
     def calcular_perimetro(self):
         return self.lado * 3
@@ -27,6 +27,7 @@ class Triangulo(Figura):
 triangulo = Triangulo(10, 20, 10)
 print(triangulo.calcular_area())
 print(triangulo.calcular_perimetro())
+
 
 class Cuadrado(Figura):
     def __init__(self, lado):
