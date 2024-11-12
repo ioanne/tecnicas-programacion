@@ -1,0 +1,18 @@
+Comados:
+
+Comando para crear estructuras
+django-admin startproject nombre_proyecto
+
+Entramos a la carpeta nombre_proyecto
+python manage.py migrate
+
+python manage.py runserver
+
+
+Comando para crear un usuario administrador
+django-admin createsuperuser
+completan los pasos.
+
+
+Crear migraciones
+python manage.py makemigrations
